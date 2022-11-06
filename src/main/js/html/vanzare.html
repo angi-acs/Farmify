@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Taraba ta</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body class="profile">
+        <div class="nav-container">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <!-- Brand/logo -->
+                <a class="navbar-brand" href="#">
+                  <div>Taraba ta</div>
+                </a>
+                
+                
+            </nav>
+              
+        </div>
+
+        
+
+        <div class="adding">
+            <h1>Adauga legume</h1>
+            <form class="veg sell-form">
+                <input type="text" name="text" id="txt"
+                required>
+                <button type="submit" class="btn-list">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+            </form>
+            <div class="container-leg">
+                <ul>
+                    <li>Rosii<span>x</span></li>
+                    <li>Cartofi<span>x</span></li>
+                    
+                </ul>
+            </div>
+
+            <h1>Adauga fructe</h1>
+            <form class="fruit sell-form">
+                <input type="text" name="text2" id="txt2"
+                required>
+                <button type="submit" class="btn-list2">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+            </form>
+            <div class="container-fruc">
+                <ul>
+                    <li>Mere<span>x</span></li>
+                    <li>Pere<span>x</span></li> 
+                </ul>
+            </div>
+
+            <h1>Selecteaza culoare fundal</h1>
+            
+            
+            <select id="select1">
+              <option value="free">verde</option>
+              <option value="basic">galben</option>
+              <option value="premium">albastru</option>
+            </select>
+            
+
+            <button type="button" class="btn btn-primary">Apasă</button>
+            
+            <h1>Doresti ilustratii?</h1>
+            <input type="checkbox">
+
+            <form id="formPic">
+                <input type="file" name="file" id="file">
+                <input type="submit" value="submit" id="submitPic">
+            </form>
+
+            <div class="col text-center">
+              <a href="profil.html" class="btn btn-success">Vezi site</a>
+              </div>
+        </div>
+        <script src="../main.js"></script>
+    </body>
+</html>

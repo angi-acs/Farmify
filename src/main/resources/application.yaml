@@ -1,0 +1,19 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        default_schema: farmapp
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        ddl-auto: create-drop
+        show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: smarthack5
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-version: 0
+    table: farmapp_schema_version
+server:
+  port: 8080

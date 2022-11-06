@@ -18,9 +18,6 @@ public class FarmAppApplication {
 		dataProcessing.readPredictScript();
 		dataProcessing.executeSeleniumScript();
 		dataProcessing.processData();
-		Float m = dataProcessing.getFruits().get("Mere").getPrice();
-
-
 
 	}
 
